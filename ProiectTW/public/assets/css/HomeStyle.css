@@ -1,0 +1,111 @@
+body { 
+
+	background-image: url('assets/images/plane.jpg');
+
+}
+
+.button { 
+   
+    background-color: #DEB887; 
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+     margin-right: 30px;
+
+ }
+
+.button:hover {
+
+	 
+    background-color: #4CAF50; /* Green */
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+   
+ } 
+
+  
+  legend{ 
+
+     font-size : 20px;
+     color : black;  
+ 
+   }
+
+
+   form { 
+   
+    padding: 10px;
+    margin : 30px;
+    margin-right: 900px;
+    background: #DEB887;
+
+    }
+
+ input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display:inline-block;
+    *display: inline;     
+    zoom:1;             
+    vertical-align:middle;
+    margin-left:20px
+}
+
+label {
+    display:inline-block;
+    *display: inline;     
+    zoom:1;             
+    float: left;
+    padding-top: 5px;
+    text-align: right;
+    width: 140px;
+}
+
+ 
+
+table { 
+  width: 100%; 
+  border-collapse: collapse; 
+  margin-top: 50px;
+    
+}
+
+
+
+tr { 
+
+   background: grey
+   
+ }
+
+th { 
+  background:  #DEB887; 
+  color:  white ; 
+  font-weight: bold; 
+}
+
+td { 
+  padding: 6px; 
+  border: 1px solid #DEB887; 
+  text-align: left; 
+}
+
+ 
+ .pagin{ 
+
+   color :white;
+   position: auto;
+   width: 30px;
+   height: 30px;
+     
+ 
+    margin-left : 10px;
+   
+  }
