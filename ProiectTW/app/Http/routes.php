@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('contact', 'ControlPagini@getContacts');
+Route::get('Contact', 'ControlPagini@getContacts');
 
 Route::get('about', 'ControlPagini@getAbout');
 
@@ -19,4 +19,15 @@ Route::get('/', 'ControlPagini@getIndex');
 
 Route::get('Home','ControlPagini@getHomePage');
 
- 
+Route::get('Mail',function(){
+
+
+	return view('Mail');
+
+
+
+
+});
+
+
+
