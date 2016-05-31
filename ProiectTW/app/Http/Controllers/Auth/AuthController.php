@@ -28,7 +28,7 @@ class AuthController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/';
+    //protected $redirectTo = '/home';
 
     /**
      * Create a new authentication controller instance.
@@ -52,6 +52,13 @@ class AuthController extends Controller
             'name' => 'required|max:255',
             'email' => 'required|email|max:255|unique:users',
             'password' => 'required|min:6|confirmed',
+            'telephone'=> 'required|min:6',
+            'city' => 'required|max:30',
+            'country' => 'required|max:30',
+            'company' => 'required|max:50',
+            'class' => 'required|max:30',
+            'stopover' => 'required|max:10',
+            'flight' => 'required|max:10',
         ]);
     }
 
@@ -67,6 +74,15 @@ class AuthController extends Controller
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
+            'telephone' => $data['telephone'],
+            'city' => $data['city'],
+            'country' => $data['country'],
+            'company' => $data['company'],
+            'class' => $data['class'],
+            'stopover' => $data['stopover'],
+            'flight' => $data['flight'],
+
         ]);
     }
 }
+
