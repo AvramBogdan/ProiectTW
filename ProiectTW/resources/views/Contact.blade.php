@@ -1,41 +1,68 @@
-<!DOCTYPE HTML> 
+@extends('layouts.homeTravlr')
 
-<HTML>
+@section('content')    
+   <div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <div class="panel panel-default">
+                <div class="panel-heading">Contact us</div>
+                <div class="panel-body">
+                    <form class="form-horizontal" role="form" method="POST" action="{{ url('/contact') }}">
+                        {!! csrf_field() !!}
 
-	<HEAD> 
-    	    <Title>  TRAVLR  </Title> 
-      
-           <link rel="stylesheet" href=assets/css/ContactStyle.css type="text/css">
+                        <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
+                            <label for="name" class="col-md-4 control-label">Name</label>
 
-	</HEAD> 
-             
-  <BODY background ="assets/images/plane.jpg" >  
+                            <div class="col-md-6">
+                                <input id="name" type="text" class="form-control" name="name" value="{{ old('name') }}" placeholder="Your Name">
 
-    <HEADER> 
+                                @if ($errors->has('name'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('name') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
 
-        <H1>TRAVLR</H1>
+                        <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
+                            <label for="email" class="col-md-4 control-label">E-Mail Address</label>
 
-    </HEADER>
+                            <div class="col-md-6">
+                                <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}" placeholder="E-Mail Address">
 
+                                @if ($errors->has('email'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('email') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
 
-    <a href ='Home' class="button"> Home </a> 
-    <a href =# class="button"> Preferences </a> 
-    <a href =# class="button"> Routes </a> 
-    <a href =# class="button"> Info </a> 
-    <a href =# class="button"> About </a> 
-    <a href ='Contact' class="button"> Contact Us </a> 
+                        <div class="form-group{{ $errors->has('message') ? ' has-error' : '' }}">
+                            <label for="message" class="col-md-4 control-label">Message</label>
 
+                            <div class="col-md-6">
+                                <input id="message" type="textarea" class="form-control" name="message" placeholder="Type your message">
 
-<div class="form-style-6">
-<h1>Contact Us</h1>
-<form action='app/Http/Controllers/mail.php'>
-<input type="text" name="name" placeholder="Your Name" />
-<input type="email" name="email" placeholder="Email Address" />
-<textarea name="message" placeholder="Type your Message"></textarea>
-<input type="submit" value="Send" />
-</form>
+                                @if ($errors->has('message'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('message') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+
+                         <div class="form-group">
+                            <div class="col-md-6 col-md-offset-4">
+                                <button type="submit" class="btn btn-primary">
+                                    <i class="fa fa-btn fa-user"></i> Send
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-
- 
-</body>
-</html> 
+@endsection
