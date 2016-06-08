@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weatherdata>
+  <location>
+    <name>Iasi</name>
+    <type/>
+    <country>RO</country>
+    <timezone/>
+    <location altitude="0" latitude="47.166672" longitude="27.6" geobase="geonames" geobaseid="0"/>
+  </location>
+  <credit/>
+  <meta>
+    <lastupdate/>
+    <calctime>0.026</calctime>
+    <nextupdate/>
+  </meta>
+  <sun rise="2016-06-08T02:14:03" set="2016-06-08T18:03:36"/>
+  <forecast>
+    <time from="2016-06-08T06:00:00" to="2016-06-08T09:00:00">
+      <symbol number="801" name="few clouds" var="02d"/>
+      <precipitation/>
+      <windDirection deg="280.004" code="W" name="West"/>
+      <windSpeed mps="1.86" name="Light breeze"/>
+      <temperature unit="celsius" value="21.59" min="15.851" max="21.59"/>
+      <pressure unit="hPa" value="1021.49"/>
+      <humidity value="75" unit="%"/>
+      <clouds value="few clouds" all="12" unit="%"/>
+    </time>
+    <time from="2016-06-08T09:00:00" to="2016-06-08T12:00:00">
+      <symbol number="800" name="sky is clear" var="01d"/>
+      <precipitation/>
+      <windDirection deg="338.005" code="NNW" name="North-northwest"/>
+      <windSpeed mps="2.02" name="Light breeze"/>
+      <temperature unit="celsius" value="23.74" min="18.292" max="23.74"/>
+      <pressure unit="hPa" value="1020.78"/>
+      <humidity value="72" unit="%"/>
+      <clouds value="clear sky" all="0" unit="%"/>
+    </time>
+    <time from="2016-06-08T12:00:00" to="2016-06-08T15:00:00">
+      <symbol number="801" name="few clouds" var="02d"/>
+      <precipitation/>
+      <windDirection deg="255.501" code="WSW" name="West-southwest"/>
+      <windSpeed mps="1.76" name="Light breeze"/>
+      <temperature unit="celsius" value="24.39" min="19.228" max="24.39"/>
+      <pressure unit="hPa" value="1019.24"/>
+      <humidity value="70" unit="%"/>
+      <clouds value="few clouds" all="24" unit="%"/>
+    </time>
+    <time from="2016-06-08T15:00:00" to="2016-06-08T18:00:00">
+      <symbol number="800" name="sky is clear" var="02d"/>
+      <precipitation/>
+      <windDirection deg="213.004" code="SSW" name="South-southwest"/>
+      <windSpeed mps="1.86" name="Light breeze"/>
+      <temperature unit="celsius" value="24.05" min="19.173" max="24.05"/>
+      <pressure unit="hPa" value="1017.72"/>
+      <humidity value="65" unit="%"/>
+      <clouds value="clear sky" all="8" unit="%"/>
+    </time>
+    <time from="2016-06-08T18:00:00" to="2016-06-08T21:00:00">
+      <symbol number="800" name="sky is clear" var="01d"/>
+      <precipitation/>
+      <windDirection deg="126.001" code="SE" name="SouthEast"/>
+      <windSpeed mps="1.51" name=""/>
+      <temperature unit="celsius" value="19.97" min="15.375" max="19.97"/>
+      <pressure unit="hPa" value="1017"/>
+      <humidity value="66" unit="%"/>
+      <clouds value="clear sky" all="0" unit="%"/>
+    </time>
+    <time from="2016-06-08T21:00:00" to="2016-06-09T00:00:00">
+      <symbol number="800" name="sky is clear" var="01n"/>
+      <precipitation/>
+      <windDirection deg="147.001" code="SSE" name="South-southeast"/>
+      <windSpeed mps="3.11" name="Light breeze"/>
+      <temperature unit="celsius" value="16.18" min="11.877" max="16.18"/>
+      <pressure unit="hPa" value="1016.71"/>
+      <humidity value="65" unit="%"/>
+      <clouds value="clear sky" all="0" unit="%"/>
+    </time>
+    <time from="2016-06-09T00:00:00" to="2016-06-09T03:00:00">
+      <symbol number="800" name="sky is clear" var="01n"/>
+      <precipitation/>
+      <windDirection deg="164.505" code="SSE" name="South-southeast"/>
+      <windSpeed mps="3.35" name=""/>
+      <temperature unit="celsius" value="14.88" min="10.863" max="14.88"/>
+      <pressure unit="hPa" value="1015.81"/>
+      <humidity value="68" unit="%"/>
+      <clouds value="clear sky" all="0" unit="%"/>
+    </time>
+    <time from="2016-06-09T03:00:00" to="2016-06-09T06:00:00">
+      <symbol number="800" name="sky is clear" var="01d"/>
+      <precipitation/>
+      <windDirection deg="161.004" code="SSE" name="South-southeast"/>
+      <windSpeed mps="3.01" name="Light breeze"/>
+      <temperature unit="celsius" value="14.02" min="10.292" max="14.02"/>
+      <pressure unit="hPa" value="1014.83"/>
+      <humidity value="79" unit="%"/>
+      <clouds value="clear sky" all="0" unit="%"/>
+    </time>
+    <time from="2016-06-09T06:00:00" to="2016-06-09T09:00:00">
+      <symbol number="800" name="sky is clear" var="01d"/>
+      <precipitation/>
+      <windDirection deg="171.001" code="S" name="South"/>
+      <windSpeed mps="3.22" name="Light breeze"/>
+      <temperature unit="celsius" value="20.71" min="17.269" max="20.71"/>
+      <pressure unit="hPa" value="1014.18"/>
+      <humidity value="77" unit="%"/>
+      <clouds value="clear sky" all="0" unit="%"/>
+    </time>
+    <time from="2016-06-09T09:00:00" to="2016-06-09T12:00:00">
+      <symbol number="800" name="sky is clear" var="02d"/>
+      <precipitation/>
+      <windDirection deg="183.5" code="S" name="South"/>
+      <windSpeed mps="3.48" name="Gentle Breeze"/>
+      <temperature unit="celsius" value="23.79" min="20.635" max="23.79"/>
+      <pressure unit="hPa" value="1013.23"/>
+      <humidity value="76" unit="%"/>
+      <clouds value="clear sky" all="8" unit="%"/>
+    </time>
+    <time from="2016-06-09T12:00:00" to="2016-06-09T15:00:00">
+      <symbol number="801" name="few clouds" var="02d"/>
+      <precipitation/>
+      <windDirection deg="185.505" code="S" name="South"/>
+      <windSpeed mps="3.26" name="Light breeze"/>
+      <temperature unit="celsius" value="24.69" min="21.818" max="24.69"/>
+      <pressure unit="hPa" value="1011.71"/>
+      <humidity value="70" unit="%"/>
+      <clouds value="few clouds" all="20" unit="%"/>
+    </time>
+    <time from="2016-06-09T15:00:00" to="2016-06-09T18:00:00">
+      <symbol number="802" name="scattered clouds" var="03d"/>
+      <precipitation/>
+      <windDirection deg="183.002" code="S" name="South"/>
+      <windSpeed mps="3.87" name="Gentle Breeze"/>
+      <temperature unit="celsius" value="23.85" min="21.268" max="23.85"/>
+      <pressure unit="hPa" value="1010.85"/>
+      <humidity value="63" unit="%"/>
+      <clouds value="scattered clouds" all="44" unit="%"/>
+    </time>
+    <time from="2016-06-09T18:00:00" to="2016-06-09T21:00:00">
+      <symbol number="801" name="few clouds" var="02d"/>
+      <precipitation/>
+      <windDirection deg="167.001" code="SSE" name="South-southeast"/>
+      <windSpeed mps="3.67" name="Gentle Breeze"/>
+      <temperature unit="celsius" value="20.78" min="18.484" max="20.78"/>
+      <pressure unit="hPa" value="1010.76"/>
+      <humidity value="63" unit="%"/>
+      <clouds value="few clouds" all="24" unit="%"/>
+    </time>
+    <time from="2016-06-09T21:00:00" to="2016-06-10T00:00:00">
+      <symbol number="800" name="sky is clear" var="02n"/>
+      <precipitation/>
+      <windDirection deg="171.003" code="S" name="South"/>
+      <windSpeed mps="4.52" name="Gentle Breeze"/>
+      <temperature unit="celsius" value="17.97" min="15.959" max="17.97"/>
+      <pressure unit="hPa" value="1010.91"/>
+      <humidity value="68" unit="%"/>
+      <clouds value="clear sky" all="8" unit="%"/>
+    </time>
+    <time from="2016-06-10T00:00:00" to="2016-06-10T03:00:00">
+      <symbol number="801" name="few clouds" var="02n"/>
+      <precipitation/>
+      <windDirection deg="170.002" code="S" name="South"/>
+      <windSpeed mps="4.01" name="Gentle Breeze"/>
+      <temperature unit="celsius" value="16.43" min="14.71" max="16.43"/>
+      <pressure unit="hPa" value="1010.58"/>
+      <humidity value="71" unit="%"/>
+      <clouds value="few clouds" all="12" unit="%"/>
+    </time>
+    <time from="2016-06-10T03:00:00" to="2016-06-10T06:00:00">
+      <symbol number="802" name="scattered clouds" var="03d"/>
+      <precipitation/>
+      <windDirection deg="174.502" code="S" name="South"/>
+      <windSpeed mps="3.21" name="Light breeze"/>
+      <temperature unit="celsius" value="15.43" min="14" max="15.43"/>
+      <pressure unit="hPa" value="1010.24"/>
+      <humidity value="76" unit="%"/>
+      <clouds value="scattered clouds" all="36" unit="%"/>
+    </time>
+    <time from="2016-06-10T06:00:00" to="2016-06-10T09:00:00">
+      <symbol number="801" name="few clouds" var="02d"/>
+      <precipitation/>
+      <windDirection deg="190.5" code="S" name="South"/>
+      <windSpeed mps="2.51" name="Light breeze"/>
+      <temperature unit="celsius" value="19.91" min="18.762" max="19.91"/>
+      <pressure unit="hPa" value="1010.68"/>
+      <humidity value="77" unit="%"/>
+      <clouds value="few clouds" all="24" unit="%"/>
+    </time>
+    <time from="2016-06-10T09:00:00" to="2016-06-10T12:00:00">
+      <symbol number="801" name="few clouds" var="02d"/>
+      <precipitation/>
+      <windDirection deg="185" code="S" name="South"/>
+      <windSpeed mps="2.31" name="Light breeze"/>
+      <temperature unit="celsius" value="23.4" min="22.543" max="23.4"/>
+      <pressure unit="hPa" value="1010.39"/>
+      <humidity value="79" unit="%"/>
+      <clouds value="few clouds" all="12" unit="%"/>
+    </time>
+    <time from="2016-06-10T12:00:00" to="2016-06-10T15:00:00">
+      <symbol number="500" name="light rain" var="10d"/>
+      <precipitation value="0.13" unit="3h" type="rain"/>
+      <windDirection deg="187" code="S" name="South"/>
+      <windSpeed mps="3.46" name="Gentle Breeze"/>
+      <temperature unit="celsius" value="23.96" min="23.391" max="23.96"/>
+      <pressure unit="hPa" value="1009.32"/>
+      <humidity value="67" unit="%"/>
+      <clouds value="broken clouds" all="76" unit="%"/>
+    </time>
+    <time from="2016-06-10T15:00:00" to="2016-06-10T18:00:00">
+      <symbol number="501" name="moderate rain" var="10d"/>
+      <precipitation value="3.96" unit="3h" type="rain"/>
+      <windDirection deg="230.5" code="SW" name="Southwest"/>
+      <windSpeed mps="2.61" name="Light breeze"/>
+      <temperature unit="celsius" value="17.52" min="17.233" max="17.52"/>
+      <pressure unit="hPa" value="1009.84"/>
+      <humidity value="100" unit="%"/>
+      <clouds value="scattered clouds" all="48" unit="%"/>
+    </time>
+    <time from="2016-06-10T18:00:00" to="2016-06-10T21:00:00">
+      <symbol number="500" name="light rain" var="10d"/>
+      <precipitation value="0.21" unit="3h" type="rain"/>
+      <windDirection deg="107" code="ESE" name="East-southeast"/>
+      <windSpeed mps="1.27" name="Calm"/>
+      <temperature unit="celsius" value="16.925" min="16.925" max="16.925"/>
+      <pressure unit="hPa" value="1008.83"/>
+      <humidity value="94" unit="%"/>
+      <clouds value="broken clouds" all="76" unit="%"/>
+    </time>
+    <time from="2016-06-10T21:00:00" to="2016-06-11T00:00:00">
+      <symbol number="500" name="light rain" var="10n"/>
+      <precipitation value="0.05" unit="3h" type="rain"/>
+      <windDirection deg="192" code="SSW" name="South-southwest"/>
+      <windSpeed mps="3.21" name="Light breeze"/>
+      <temperature unit="celsius" value="16.269" min="16.269" max="16.269"/>
+      <pressure unit="hPa" value="1008.41"/>
+      <humidity value="85" unit="%"/>
+      <clouds value="broken clouds" all="56" unit="%"/>
+    </time>
+    <time from="2016-06-11T00:00:00" to="2016-06-11T03:00:00">
+      <symbol number="802" name="scattered clouds" var="03n"/>
+      <precipitation/>
+      <windDirection deg="217.503" code="SW" name="Southwest"/>
+      <windSpeed mps="3.45" name="Gentle Breeze"/>
+      <temperature unit="celsius" value="14.863" min="14.863" max="14.863"/>
+      <pressure unit="hPa" value="1008.73"/>
+      <humidity value="82" unit="%"/>
+      <clouds value="scattered clouds" all="32" unit="%"/>
+    </time>
+    <time from="2016-06-11T03:00:00" to="2016-06-11T06:00:00">
+      <symbol number="803" name="broken clouds" var="04d"/>
+      <precipitation/>
+      <windDirection deg="208.501" code="SSW" name="South-southwest"/>
+      <windSpeed mps="1.66" name="Light breeze"/>
+      <temperature unit="celsius" value="13.317" min="13.317" max="13.317"/>
+      <pressure unit="hPa" value="1008.63"/>
+      <humidity value="88" unit="%"/>
+      <clouds value="broken clouds" all="68" unit="%"/>
+    </time>
+    <time from="2016-06-11T06:00:00" to="2016-06-11T09:00:00">
+      <symbol number="802" name="scattered clouds" var="03d"/>
+      <precipitation/>
+      <windDirection deg="230.504" code="SW" name="Southwest"/>
+      <windSpeed mps="2.86" name="Light breeze"/>
+      <temperature unit="celsius" value="18.411" min="18.411" max="18.411"/>
+      <pressure unit="hPa" value="1009.04"/>
+      <humidity value="86" unit="%"/>
+      <clouds value="scattered clouds" all="36" unit="%"/>
+    </time>
+    <time from="2016-06-11T09:00:00" to="2016-06-11T12:00:00">
+      <symbol number="500" name="light rain" var="10d"/>
+      <precipitation value="0.06" unit="3h" type="rain"/>
+      <windDirection deg="278.503" code="W" name="West"/>
+      <windSpeed mps="4.51" name="Gentle Breeze"/>
+      <temperature unit="celsius" value="21.377" min="21.377" max="21.377"/>
+      <pressure unit="hPa" value="1009.54"/>
+      <humidity value="74" unit="%"/>
+      <clouds value="broken clouds" all="76" unit="%"/>
+    </time>
+    <time from="2016-06-11T12:00:00" to="2016-06-11T15:00:00">
+      <symbol number="500" name="light rain" var="10d"/>
+      <precipitation value="0.52" unit="3h" type="rain"/>
+      <windDirection deg="331.001" code="NNW" name="North-northwest"/>
+      <windSpeed mps="4.51" name="Gentle Breeze"/>
+      <temperature unit="celsius" value="19.645" min="19.645" max="19.645"/>
+      <pressure unit="hPa" value="1012.02"/>
+      <humidity value="76" unit="%"/>
+      <clouds value="clear sky" all="0" unit="%"/>
+    </time>
+    <time from="2016-06-11T15:00:00" to="2016-06-11T18:00:00">
+      <symbol number="802" name="scattered clouds" var="03d"/>
+      <precipitation/>
+      <windDirection deg="328.003" code="NNW" name="North-northwest"/>
+      <windSpeed mps="3.31" name=""/>
+      <temperature unit="celsius" value="19.261" min="19.261" max="19.261"/>
+      <pressure unit="hPa" value="1012.77"/>
+      <humidity value="70" unit="%"/>
+      <clouds value="scattered clouds" all="32" unit="%"/>
+    </time>
+    <time from="2016-06-11T18:00:00" to="2016-06-11T21:00:00">
+      <symbol number="802" name="scattered clouds" var="03d"/>
+      <precipitation/>
+      <windDirection deg="340.5" code="NNW" name="North-northwest"/>
+      <windSpeed mps="1.56" name=""/>
+      <temperature unit="celsius" value="17.026" min="17.026" max="17.026"/>
+      <pressure unit="hPa" value="1013.48"/>
+      <humidity value="69" unit="%"/>
+      <clouds value="scattered clouds" all="36" unit="%"/>
+    </time>
+    <time from="2016-06-11T21:00:00" to="2016-06-12T00:00:00">
+      <symbol number="802" name="scattered clouds" var="03n"/>
+      <precipitation/>
+      <windDirection deg="28.5033" code="NNE" name="North-northeast"/>
+      <windSpeed mps="1.31" name="Calm"/>
+      <temperature unit="celsius" value="13.21" min="13.21" max="13.21"/>
+      <pressure unit="hPa" value="1014.31"/>
+      <humidity value="83" unit="%"/>
+      <clouds value="scattered clouds" all="48" unit="%"/>
+    </time>
+    <time from="2016-06-12T00:00:00" to="2016-06-12T03:00:00">
+      <symbol number="804" name="overcast clouds" var="04n"/>
+      <precipitation/>
+      <windDirection deg="52.0027" code="NE" name="NorthEast"/>
+      <windSpeed mps="1.41" name="Calm"/>
+      <temperature unit="celsius" value="13.478" min="13.478" max="13.478"/>
+      <pressure unit="hPa" value="1014.33"/>
+      <humidity value="79" unit="%"/>
+      <clouds value="overcast clouds" all="92" unit="%"/>
+    </time>
+    <time from="2016-06-12T03:00:00" to="2016-06-12T06:00:00">
+      <symbol number="804" name="overcast clouds" var="04d"/>
+      <precipitation/>
+      <windDirection deg="96.5018" code="E" name="East"/>
+      <windSpeed mps="3.01" name="Light breeze"/>
+      <temperature unit="celsius" value="14.166" min="14.166" max="14.166"/>
+      <pressure unit="hPa" value="1012.97"/>
+      <humidity value="74" unit="%"/>
+      <clouds value="overcast clouds" all="92" unit="%"/>
+    </time>
+    <time from="2016-06-12T06:00:00" to="2016-06-12T09:00:00">
+      <symbol number="500" name="light rain" var="10d"/>
+      <precipitation value="0.43" unit="3h" type="rain"/>
+      <windDirection deg="117.008" code="ESE" name="East-southeast"/>
+      <windSpeed mps="4.21" name="Gentle Breeze"/>
+      <temperature unit="celsius" value="15.301" min="15.301" max="15.301"/>
+      <pressure unit="hPa" value="1011.5"/>
+      <humidity value="83" unit="%"/>
+      <clouds value="scattered clouds" all="44" unit="%"/>
+    </time>
+    <time from="2016-06-12T09:00:00" to="2016-06-12T12:00:00">
+      <symbol number="802" name="scattered clouds" var="03d"/>
+      <precipitation/>
+      <windDirection deg="153.011" code="SSE" name="South-southeast"/>
+      <windSpeed mps="3.22" name="Light breeze"/>
+      <temperature unit="celsius" value="21.546" min="21.546" max="21.546"/>
+      <pressure unit="hPa" value="1009.23"/>
+      <humidity value="79" unit="%"/>
+      <clouds value="scattered clouds" all="44" unit="%"/>
+    </time>
+    <time from="2016-06-12T12:00:00" to="2016-06-12T15:00:00">
+      <symbol number="500" name="light rain" var="10d"/>
+      <precipitation value="1.84" unit="3h" type="rain"/>
+      <windDirection deg="358.505" code="" name=""/>
+      <windSpeed mps="3.26" name="Light breeze"/>
+      <temperature unit="celsius" value="19.16" min="19.16" max="19.16"/>
+      <pressure unit="hPa" value="1008.15"/>
+      <humidity value="94" unit="%"/>
+      <clouds value="broken clouds" all="76" unit="%"/>
+    </time>
+    <time from="2016-06-12T15:00:00" to="2016-06-12T18:00:00">
+      <symbol number="500" name="light rain" var="10d"/>
+      <precipitation value="1.86" unit="3h" type="rain"/>
+      <windDirection deg="6.50024" code="N" name="North"/>
+      <windSpeed mps="7.85" name="Moderate breeze"/>
+      <temperature unit="celsius" value="13.715" min="13.715" max="13.715"/>
+      <pressure unit="hPa" value="1009.44"/>
+      <humidity value="99" unit="%"/>
+      <clouds value="overcast clouds" all="92" unit="%"/>
+    </time>
+    <time from="2016-06-12T18:00:00" to="2016-06-12T21:00:00">
+      <symbol number="500" name="light rain" var="10d"/>
+      <precipitation value="1.67" unit="3h" type="rain"/>
+      <windDirection deg="359.003" code="" name=""/>
+      <windSpeed mps="4.82" name="Gentle Breeze"/>
+      <temperature unit="celsius" value="11.311" min="11.311" max="11.311"/>
+      <pressure unit="hPa" value="1011.48"/>
+      <humidity value="95" unit="%"/>
+      <clouds value="broken clouds" all="68" unit="%"/>
+    </time>
+    <time from="2016-06-12T21:00:00" to="2016-06-13T00:00:00">
+      <symbol number="800" name="sky is clear" var="01n"/>
+      <precipitation/>
+      <windDirection deg="351.504" code="" name=""/>
+      <windSpeed mps="3.82" name="Gentle Breeze"/>
+      <temperature unit="celsius" value="9.869" min="9.869" max="9.869"/>
+      <pressure unit="hPa" value="1012.75"/>
+      <humidity value="94" unit="%"/>
+      <clouds value="clear sky" all="0" unit="%"/>
+    </time>
+    <time from="2016-06-13T00:00:00" to="2016-06-13T03:00:00">
+      <symbol number="801" name="few clouds" var="02n"/>
+      <precipitation/>
+      <windDirection deg="337.503" code="NNW" name="North-northwest"/>
+      <windSpeed mps="2.06" name="Light breeze"/>
+      <temperature unit="celsius" value="8.45" min="8.45" max="8.45"/>
+      <pressure unit="hPa" value="1012.31"/>
+      <humidity value="98" unit="%"/>
+      <clouds value="few clouds" all="24" unit="%"/>
+    </time>
+  </forecast>
+</weatherdata>
